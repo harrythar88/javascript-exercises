@@ -2,7 +2,7 @@ const numberChecker = require('./numberChecker')
 
 describe('numberChecker', () => {
   test('returns true when number is 10', () => {
-    expect(numberChecker(545454)).toEqual(true);
+    expect(numberChecker(5)).toEqual(true);
   });
   test.skip('returns true when number is 1000', () => {
     expect(numberChecker(1000)).toEqual(true);
